@@ -1,0 +1,19 @@
+{
+  "name": "hiya-corp-holdings-portfolio-os",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "description": "Authenticated digital asset holding-company operating system for Hiya Corp Holdings",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "NODE_ENV=development node --watch server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
